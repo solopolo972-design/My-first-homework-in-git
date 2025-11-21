@@ -754,3 +754,7 @@ video {
   --tw-text-opacity: 1;
   color: rgb(128 128 128 / var(--tw-text-opacity, 1));
 }
+
+.text-\[whiteZZZ\] {
+  color: whiteZZZ;
+}
