@@ -694,8 +694,16 @@ video {
   margin-top: 500px;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .w-\[30\%\] {
@@ -951,4 +959,18 @@ video {
 .text-\[black\] {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
+@media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:w-\[30\%\] {
+    width: 30%;
+  }
 }

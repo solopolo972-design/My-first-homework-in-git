@@ -9,30 +9,36 @@
   <body>
     <header>
       <nav
-        class="flex justify-center justify-evenly p-[30px] bg-[#252B42] text-[white] text-[20px]"
+        class="flex justify-center items-center justify-evenly p-[30px] bg-[#252B42] text-[white] text-[20px]"
       >
         <div>
           <img src="./navbar-brand.png" alt="" />
         </div>
-        <ul class="flex gap-[20px]">
+        <ul class="lg:flex hidden gap-[20px]">
           <li>Home</li>
           <li>Product</li>
           <li>Pricing</li>
           <li>Contact</li>
         </ul>
-        <div class="flex gap-[20px]">
+        <div class="lg:flex hidden gap-[20px]">
           <button>Login</button>
           <button class="p-[15px] bg-[#23A6F0] rounded-[10px]">
             Become a member ->
           </button>
         </div>
+
+        <div class="lg:hidden flex gap-[10px] ">
+            <img src="./icn search .icn-xs.png" alt="">
+            <img src="./icn shopping-cart .icn-xs.png" alt="">
+            <img src="./icn menu .icn-xs.png" alt="">
+        </div>
       </nav>
     </header>
 
     <div
-      class="flex justify-center items-center text-[white] bg-[#252B42] p-[30px]"
+      class="lg:flex block justify-center items-center text-[white] bg-[#252B42] p-[30px]"
     >
-      <div class="w-[30%]">
+      <div class="lg:w-[30%] w-[80%] m-auto">
         <h1 class="text-[40px] font-bold mb-[30px]">
           Financial <br />
           Assistance With <br />
@@ -70,9 +76,9 @@
         </p>
       </div>
       <div>
-        <div class="w-[80%] m-auto flex justify-center justify-evenly">
+        <div class="w-[80%] m-auto lg:flex block justify-center justify-evenly">
           <div
-            class="flex items-center gap-[20px] text-[white] border-solid border-[gray] border-[1px] p-[20px] w-[329px]"
+            class="flex block items-center gap-[20px] text-[white] border-solid border-[gray] border-[1px] p-[20px] w-[329px]"
           >
             <div>
               <img src="icn resize .icn-xl.png" alt="" />
@@ -115,7 +121,7 @@
           </div>
         </div>
         <div
-          class="w-[80%] m-auto flex justify-center justify-evenly mt-[30px]"
+          class="w-[80%] m-auto lg:flex block justify-center justify-evenly mt-[30px]"
         >
           <div
             class="flex items-center gap-[20px] text-[white] border-solid border-[gray] border-[1px] p-[20px] w-[329px]"
@@ -171,7 +177,7 @@
           the two major realms of Classical physics: Newtonian mechanics
         </p>
       </div>
-      <div class="flex justify-center">
+      <div class="flex justify-center w-[80%] m-auto">
         <img src="card-item.png" alt="" />
       </div>
     </div>
@@ -184,7 +190,7 @@
           the two major realms of Classical physics: Newtonian mechanics
         </p>
       </div>
-      <div class="flex justify-center justify-evenly">
+      <div class="lg:flex block w-[80%] m-auto justify-center justify-evenly">
         <img src="./col-md-3.png" alt="" />
         <img src="./col-md-3 (1).png" alt="" />
         <img src="./col-md-3 (2).png" alt="" />
@@ -200,14 +206,14 @@
           the two major realms of Classical physics: Newtonian mechanics
         </p>
       </div>
-      <div class="flex justify-center justify-evenly">
+      <div class="lg:flex w-[80%] m-auto block justify-center justify-evenly">
         <img src="./col-md-6 (1).png" alt="" />
         <img src="./col-md-6 (2).png" alt="" />
       </div>
     </div>
 
     <div
-      class="flex justify-center bg-[#252B42] items-center gap-[100px] pb-[400px] pt-[200px]"
+      class="lg:flex block justify-center bg-[#252B42] items-center gap-[100px] pb-[400px] pt-[200px]"
     >
       <div class="text-[white]">
         <h1 class="text-[40px] font-bold mb-[30px]">
@@ -228,7 +234,7 @@
     </div>
     <div class="relative">
       <div
-        class="flex justify-center items-center bg-[white] gap-[30px] mt-[30px]"
+        class="lg:flex block w-[80%] m-auto justify-center items-center bg-[white] gap-[30px] mt-[30px]"
       >
         <div>
           <img src="./media.png" alt="" />
@@ -274,7 +280,7 @@
       </div>
     </div>
 
-    <div class="text-[white] flex justify-center justify-evenly bg-[#252B42] mt-[30px] p-[30px]">
+    <div class="text-[white] lg:flex block justify-center justify-evenly bg-[#252B42] mt-[30px] p-[30px]">
       <div>
         <h1 class="text-[20px] font-bold mb-[30px]">Get In Touch</h1>
         <p class="mb-[30px]">the quick fox jumps over the lazy dog</p>
