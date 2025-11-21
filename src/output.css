@@ -669,6 +669,10 @@ video {
   background-color: ;
 }
 
+.bg-\[2\] {
+  background-color: 2;
+}
+
 .p-\[15px\] {
   padding: 15px;
 }
