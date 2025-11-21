@@ -634,6 +634,10 @@ video {
   gap: 10px;
 }
 
+.gap-\[100px\] {
+  gap: 100px;
+}
+
 .rounded-\[10px\] {
   border-radius: 10px;
 }
@@ -695,6 +699,26 @@ video {
 
 .p-\[150px\] {
   padding: 150px;
+}
+
+.p-\[200px\] {
+  padding: 200px;
+}
+
+.pt-\[200px\] {
+  padding-top: 200px;
+}
+
+.pt-\[100px\] {
+  padding-top: 100px;
+}
+
+.pb-\[\] {
+  padding-bottom: ;
+}
+
+.pb-\[400px\] {
+  padding-bottom: 400px;
 }
 
 .text-center {
