@@ -558,6 +558,14 @@ video {
   font-size: 40px;
 }
 
+.text-\[700px\] {
+  font-size: 700px;
+}
+
+.text-\[70px\] {
+  font-size: 70px;
+}
+
 .text-\[red\] {
   --tw-text-opacity: 1;
   color: rgb(255 0 0 / var(--tw-text-opacity, 1));
